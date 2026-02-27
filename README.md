@@ -1,5 +1,5 @@
 # Global Sales ELT Pipeline
-**Snowflake · Snowpark (Python) · GitHub Actions · Power BI**
+**Snowflake · Snowpark (Python) · GitHub Actions · AWS · Power BI**
 
 ---
 
