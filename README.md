@@ -65,6 +65,7 @@ The pipeline follows a **layered warehouse architecture** commonly used in produ
 
 ```
 Global-Sales-Analytics-Pipeline/
+│
 ├── data/
 │   ├── india/
 │   │   ├── order_details.csv
@@ -76,20 +77,26 @@ Global-Sales-Analytics-Pipeline/
 │       ├── Superstore_Orders_q1.csv
 │       ├── Superstore_Orders_q2.csv
 │       └── usa_orders.parquet
+│
 ├── snowpark/
 │   ├── raw_load.py
 │   ├── transformed_load.py
 │   └── curated_load.py
+│
 ├── sql/
 │   └── setup.sql
+│
 ├── powerbi/
 │   ├── Global Sales Analytics Model.pbix
 │   └── Global Sales Analytics Model.pdf
+│
 ├── utils/
 │   └── run_sql.py
+│
 ├── .github/
 │   └── workflows/
 │       └── snowpark_pipeline.yml
+│
 └── README.md
 ```
 
