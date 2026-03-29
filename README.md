@@ -1,4 +1,4 @@
-# Global Sales ELT Pipeline
+# Global Sales Analytics Pipeline
 **Snowflake · Snowpark (Python) · GitHub Actions · AWS · Power BI**
 
 ---
@@ -64,7 +64,7 @@ The pipeline follows a **layered warehouse architecture** commonly used in produ
 ## Repository Structure
 
 ```
-Global-Sales-ELT-Pipeline/
+Global-Sales-Analytics-Pipeline/
 ├── data/
 │   ├── india/
 │   │   ├── order_details.csv
